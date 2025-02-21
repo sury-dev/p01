@@ -6,7 +6,7 @@ async function postData(req, res){
             return res.status(400).json({ is_success: false, message: "Invalid input format" });
         }
 
-        const user_id = "john_doe_17091999"; // Hardcoded user_id format
+        const user_id = "john_doe_17091999";
         const email = "john@xyz.com";
         const roll_number = "ABCD123";
 
